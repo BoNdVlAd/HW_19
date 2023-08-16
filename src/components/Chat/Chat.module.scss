@@ -1,0 +1,66 @@
+.chat {
+  background: url('https://img.freepik.com/premium-vector/social-networks-dating-apps-vector-seamless-pattern_341076-469.jpg');
+  height: 500px;
+  width: 450px;
+  border: 1px solid #566573;
+  padding: 5px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  justify-content: right;
+  position: relative;
+  border-radius: 20px;
+}
+
+.text,
+.text1 {
+  padding: 5px;
+  background-color: aquamarine;
+  display: inline-block;
+  border-radius: 20px;
+}
+.text {
+  border-top-left-radius: 0px;
+}
+
+.textBg {
+  display: flex;
+}
+.textBg1 {
+  display: flex;
+  justify-content: right;
+}
+
+.text1 {
+  border-top-right-radius: 0px;
+}
+
+.textInput {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  font-family: inherit;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 74px;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: inherit;
+  &:hover {
+    background-color: #212f3c;
+    color: #fff;
+  }
+}
+
+p {
+  margin: 0;
+}

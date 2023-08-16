@@ -1,0 +1,19 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.contact {
+  text-decoration: none;
+}
+
+.title {
+  padding: 15px 0;
+  text-align: center;
+  margin: 0;
+}
+
+.wrapper {
+  margin: 20px 0;
+  padding: 0 0 100px 0;
+}

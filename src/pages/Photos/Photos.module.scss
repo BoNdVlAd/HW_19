@@ -1,0 +1,32 @@
+.card {
+  background-color: #e5e7e9;
+  padding: 10px;
+  transition: all ease 0.3s;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.title {
+  text-align: center;
+  padding: 15px 0;
+  margin: 0;
+}
+
+.imgBlock {
+  width: 200px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+}
+
+.photos {
+  padding-bottom: 80px;
+  margin: 20px 0;
+}

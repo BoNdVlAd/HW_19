@@ -1,0 +1,61 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  height: 100%;
+}
+
+.main {
+  background-color: #e5e7e9;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Edu SA Beginner', cursive;
+}
+
+.navigation {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background-color: #212f3c;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+.navigation > * {
+  text-decoration: none;
+  font-size: 24px;
+  color: aliceblue;
+  transition: ease all 0.3s opacity;
+  &:hover {
+    opacity: 0.5;
+  }
+  &.active {
+    text-decoration: underline;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main {
+  flex: 1 1 auto;
+  padding-top: 80px;
+}
+
+.footer {
+  flex: 0 1 45px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #566573;
+  color: #fff;
+  font-size: 18px;
+}
